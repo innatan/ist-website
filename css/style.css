@@ -87,18 +87,18 @@ img.profile {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .hero {
-  padding-top: 40px;
+  padding-top: 24px;
   background-color: #fafafa;
 }
 
 .content p {
   font-size: 1em;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 1.5em;
   color: #052120;
   margin-bottom: 24px;
 }
@@ -172,7 +172,7 @@ a:hover.email {
 }
 
 .footer p {
-  font-size: .8em;
+  font-size: .5em;
   text-align: center;
   color: #99aaa9;
   padding-top: 8px;
@@ -246,7 +246,7 @@ a.socialcta {
 }
 
 .footer p {
- 	font-size: .8em;
+ 	font-size: .5em;
  	text-align: center;
  	padding-top: 8px;
   padding-left: 16px;
