@@ -79,11 +79,11 @@ body {
 }
 
 img.profile {
-  width: 150px !important;
-  -moz-border-radius: 80px;
-  -webkit-border-radius: 80px;
-  -khtml-border-radius: 80px;
-  border-radius: 80px;
+  width: 100px !important;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -khtml-border-radius: 100px;
+  border-radius: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
