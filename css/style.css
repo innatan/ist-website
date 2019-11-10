@@ -26,6 +26,29 @@
   animation-delay: 0.5s;
 }
 
+.social {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  -o-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 0.7s;
+  -moz-animation-duration: 0.7s;
+  -o-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
 #footer {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
@@ -64,11 +87,11 @@ img.profile {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2em;
+  margin-bottom: 40px;
 }
 
 .hero {
-  padding-top: 2.2em;
+  padding-top: 40px;
   background-color: #fafafa;
 }
 
@@ -77,11 +100,11 @@ img.profile {
   font-weight: 300;
   line-height: 1.6em;
   color: #333333;
-  margin-bottom: 1em;
+  margin-bottom: 24px;
 }
 
 .content {
-  padding-bottom: 1em !important;
+  padding-bottom: 8px !important;
 }
 
 .content a {
@@ -168,7 +191,7 @@ a:hover.email {
 @media (max-width: 640px) and (min-width: 0px) {
 
   img.profile {
-    width: 100px !important;
+    width: 150px !important;
     -moz-border-radius: 80px;
     -webkit-border-radius: 80px;
     -khtml-border-radius: 80px;
@@ -179,17 +202,17 @@ a:hover.email {
   }
 
 .hero {
-  padding-top: 2.2em;
+  padding-top: 40px;
 }
 
 .content {
-  padding-bottom: 1em !important;
+  padding-bottom: 8px !important;
   padding-left: 5px;
 }
 
 .social {
   text-align: center;
-  padding-bottom: .5em !important;
+  padding-bottom: 24px !important;
 }
 
 .social ul, li {
