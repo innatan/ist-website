@@ -251,7 +251,8 @@ a.socialcta {
   margin-top: 40px;
   margin-bottom: 40px;
  	border-top: 1px solid #e4e4e4;
-  width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #footer p {
