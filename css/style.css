@@ -175,7 +175,7 @@ a:hover.email {
   font-size: .8em;
   text-align: center;
   color: #99aaa9;
-  padding-top: 16px;
+  padding-top: 8px;
 }
 
 .footer a {
@@ -248,7 +248,7 @@ a.socialcta {
 .footer p {
  	font-size: .8em;
  	text-align: center;
- 	padding-top: 16px;
+ 	padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
 }
