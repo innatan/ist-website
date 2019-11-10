@@ -1,0 +1,253 @@
+@-webkit-keyframes fadeIn { from {opacity: 0;} to {opacity:1;} }
+@-moz-keyframes fadeIn { from {opacity: 0;} to {opacity:1;} }
+@-o-keyframes fadeIn { from {opacity: 0;} to {opacity:1;} }
+@keyframes fadeIn { from {opacity: 0;} to {opacity:1;} }
+
+.wrap {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  -o-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 0.7s;
+  -moz-animation-duration: 0.7s;
+  -o-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+#footer {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  -o-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 0.7s;
+  -moz-animation-duration: 0.7s;
+  -o-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+img.profile {
+  width: 150px !important;
+  -moz-border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -khtml-border-radius: 80px;
+  border-radius: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+.hero {
+  padding-top: 2.2em;
+  background-color: #fafafa;
+}
+
+.content p {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.6em;
+  color: #333333;
+  margin-bottom: 1.5em;
+}
+
+.content {
+  padding-bottom: 1em !important;
+}
+
+.content a {
+  font-weight: 600;
+  color: #333333;
+  text-decoration: underline;
+}
+
+.content a:hover {
+  color: #00ad9f;
+}
+
+.social {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 24px !important;
+}
+
+.social ul, li {
+  margin: 0;
+  display: inline;
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a.socialcta {
+  color: #99aaa9;
+  font-size: 1.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 0 20px;
+}
+
+a:hover.twitter {
+  color: #00ad9f;
+}
+
+a:hover.instagram {
+  color: #00ad9f;
+}
+
+a:hover.dribbble {
+  color: #00ad9f;
+}
+
+a:hover.github {
+  color: #00ad9f;
+}
+
+a:hover.email {
+  color: #00ad9f;
+}
+
+#footer {
+  margin-top: 64px;
+  border-top: 1px solid #e3e3e3;
+}
+
+#footer p {
+  font-size: .8em;
+  text-align: center;
+  color: #99aaa9;
+  padding-top: 8px;
+}
+
+#footer a {
+  text-decoration: underline;
+  color: #99aaa9;
+}
+
+#footer a:hover {
+  color: #00ad9f;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) and (min-width: 641px) {
+}
+/* Mobile */
+@media (max-width: 640px) and (min-width: 0px) {
+
+  img.profile {
+    width: 100px !important;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -khtml-border-radius: 80px;
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.hero {
+  padding-top: 1.5em;
+}
+
+.content {
+  padding-bottom: 1em !important;
+  padding-left: 5px;
+}
+
+.social {
+  text-align: center;
+  padding-bottom: .5em !important;
+}
+
+.social ul, li {
+  margin: 0;
+  display: inline;
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.socialcta {
+  font-size: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 10px;
+  -moz-border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -khtml-border-radius: 80px;
+  border-radius: 80px;
+  border: none;
+}
+
+a.socialcta {
+    color: #99aaa9;
+      font-size: 1.5em;
+      vertical-align: middle;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      padding: 0 10px;
+}
+
+.socialcta a {
+ 	-o-transition: all 500ms;
+ 	-moz-transition: all 500ms;
+ 	-webkit-transition: all 500ms;
+ 	transition: all 500ms;
+}
+
+#footer {
+  margin-top: 64px;
+ 	border-top: 1px solid #e4e4e4;
+}
+
+#footer p {
+ 	font-size: .8em;
+ 	text-align: center;
+ 	padding-top: 8px;
+}
+
+#footer a {
+  text-decoration: underline;
+  color: #99aaa9;
+}
+
+#footer a:hover {
+  color: #00ad9f;
+}
