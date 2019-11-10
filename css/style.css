@@ -49,7 +49,7 @@
   animation-delay: 0.5s;
 }
 
-#footer {
+.footer {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
   -moz-animation: fadeIn ease-in 1;
@@ -165,25 +165,25 @@ a:hover.email {
   color: #00ad9f;
 }
 
-#footer {
+.footer {
   margin-top: 40px;
   margin-bottom: 40px;
   border-top: 1px solid #e4e4e4;
 }
 
-#footer p {
+.footer p {
   font-size: .8em;
   text-align: center;
   color: #99aaa9;
   padding-top: 8px;
 }
 
-#footer a {
+.footer a {
   text-decoration: underline;
   color: #99aaa9;
 }
 
-#footer a:hover {
+.footer a:hover {
   color: #00ad9f;
 }
 
@@ -194,14 +194,6 @@ a:hover.email {
 }
 /* Mobile */
 @media (max-width: 640px) and (min-width: 0px) {
-
-.hero {
-  padding-top: 40px;
-}
-
-.content {
-  padding-bottom: 8px !important;
-}
 
 .social {
   text-align: center;
@@ -247,23 +239,23 @@ a.socialcta {
  	transition: all 500ms;
 }
 
-#footer {
+.footer {
   margin-top: 40px;
   margin-bottom: 40px;
  	border-top: 1px solid #e4e4e4;
 }
 
-#footer p {
+.footer p {
  	font-size: .8em;
  	text-align: center;
  	padding-top: 8px;
 }
 
-#footer a {
+.footer a {
   text-decoration: underline;
   color: #99aaa9;
 }
 
-#footer a:hover {
+.footer a:hover {
   color: #00ad9f;
 }
