@@ -153,6 +153,10 @@ a:hover.dribbble {
   color: #ea4c89;
 }
 
+a:hover.medium {
+  color: #00ab6c;
+}
+
 a:hover.github {
   color: #4a535b;
 }
