@@ -1,11 +1,11 @@
 @font-face {
-font-family: 'Roboto', sans-serif;
+font-family: 'Inter', sans-serif;
 -webkit-font-smoothing: antialiased;
 }
 
 /* Toast Framework - type.css */
 body {
-	font: 300 'Roboto', sans-serif;
+	font: 400 'Inter', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
